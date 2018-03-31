@@ -1,0 +1,10 @@
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/bin/Debug/netcoreapp2.0/BlockWithSingleTransaction.deps.json
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/bin/Debug/netcoreapp2.0/BlockWithSingleTransaction.runtimeconfig.json
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/bin/Debug/netcoreapp2.0/BlockWithSingleTransaction.runtimeconfig.dev.json
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/bin/Debug/netcoreapp2.0/BlockWithSingleTransaction.dll
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/bin/Debug/netcoreapp2.0/BlockWithSingleTransaction.pdb
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/obj/Debug/netcoreapp2.0/BlockWithSingleTransaction.csproj.CoreCompileInputs.cache
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/obj/Debug/netcoreapp2.0/BlockWithSingleTransaction.AssemblyInfoInputs.cache
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/obj/Debug/netcoreapp2.0/BlockWithSingleTransaction.AssemblyInfo.cs
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/obj/Debug/netcoreapp2.0/BlockWithSingleTransaction.dll
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/obj/Debug/netcoreapp2.0/BlockWithSingleTransaction.pdb
