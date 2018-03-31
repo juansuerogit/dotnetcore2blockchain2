@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2863e2d-b4fc-4c5e-9a41-9a538910f22c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.dotnetcore2blockchain2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.dotnetcore2blockchain2/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e2863e2d-b4fc-4c5e-9a41-9a538910f22c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,12 +165,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522512717637</updated>
       <workItem from="1522512720356" duration="494000" />
-      <workItem from="1522513240675" duration="606000" />
+      <workItem from="1522513240675" duration="690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1100000" />
+    <option name="totallyTimeSpent" value="1184000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
