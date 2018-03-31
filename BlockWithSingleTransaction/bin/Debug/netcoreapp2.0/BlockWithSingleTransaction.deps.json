@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "BlockWithSingleTransaction/1.0.0": {
+        "dependencies": {
+          "CryptoUtilities": "1.0.0"
+        },
         "runtime": {
           "BlockWithSingleTransaction.dll": {}
+        }
+      },
+      "CryptoUtilities/1.0.0": {
+        "runtime": {
+          "CryptoUtilities.dll": {}
         }
       }
     }
   },
   "libraries": {
     "BlockWithSingleTransaction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CryptoUtilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -8,3 +8,5 @@
 /home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/obj/Debug/netcoreapp2.0/BlockWithSingleTransaction.AssemblyInfo.cs
 /home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/obj/Debug/netcoreapp2.0/BlockWithSingleTransaction.dll
 /home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/obj/Debug/netcoreapp2.0/BlockWithSingleTransaction.pdb
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/bin/Debug/netcoreapp2.0/CryptoUtilities.dll
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/BlockWithSingleTransaction/bin/Debug/netcoreapp2.0/CryptoUtilities.pdb

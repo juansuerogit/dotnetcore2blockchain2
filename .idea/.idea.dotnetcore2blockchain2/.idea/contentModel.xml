@@ -4,10 +4,12 @@
     <e p="$USER_HOME$/.Rider2017.3/system/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_dotnetcore2blockchain2.-1590127076.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="BlockWithSingleTransaction" t="IncludeRecursive">
+        <e p="Block.cs" t="Include" />
         <e p="BlockWithSingleTransaction.csproj" t="IncludeRecursive" />
         <e p="ClaimType.cs" t="Include" />
         <e p="Interfaces" t="Include">
           <e p="IBlock.cs" t="Include" />
+          <e p="IBlockChain.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -15,6 +17,19 @@
           <e p="Debug" t="Include">
             <e p="netcoreapp2.0" t="Include">
               <e p="BlockWithSingleTransaction.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CryptoUtilities" t="IncludeRecursive">
+        <e p="CryptoUtilities.csproj" t="IncludeRecursive" />
+        <e p="HashData.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="CryptoUtilities.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>

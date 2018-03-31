@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "CryptoUtilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CryptoUtilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CryptoUtilities.dll": {}
+        }
       }
     }
   },
@@ -656,10 +666,16 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "CryptoUtilities/1.0.0": {
+      "type": "project",
+      "path": "../CryptoUtilities/CryptoUtilities.csproj",
+      "msbuildProject": "../CryptoUtilities/CryptoUtilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "CryptoUtilities >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -690,7 +706,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/CryptoUtilities/CryptoUtilities.csproj": {
+              "projectPath": "/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/CryptoUtilities/CryptoUtilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

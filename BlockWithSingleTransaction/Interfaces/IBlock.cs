@@ -19,7 +19,7 @@ namespace BlockWithSingleTransaction.Interfaces
 
         int BlockNumber { get; set; }
         
-        DateTime BlockCreationDate { get; set; }
+        DateTime CreatedDate { get; set; }
         
         string PrevBlockHash { get; set; }
         

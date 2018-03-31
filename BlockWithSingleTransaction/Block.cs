@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Globalization;
+using System.Text;
 using BlockWithSingleTransaction.Interfaces;
+using CryptoUtilities;
 
 namespace BlockWithSingleTransaction
 {
@@ -12,25 +15,72 @@ namespace BlockWithSingleTransaction
         public string CarRegistration { get; set; }
         public int Mileage { get; set; }
         public ClaimType ClaimType { get; set; }
+        
         public int BlockNumber { get; set; }
-        public DateTime BlockCreationDate { get; set; }
+        public DateTime CreatedDate { get; set; }
         public string PrevBlockHash { get; set; }
         public string BlockHash { get; set; }
         public IBlock NextBlock { get; set; }
 
+        public Block(
+            int blockNumber,
+            string claimNumber,
+            decimal settlementAmount,
+            DateTime settlementDate,
+            int mileage,
+            string carRegistration,
+            ClaimType claimType,
+            IBlock parent 
+        ) {
+            BlockNumber = blockNumber;
+            ClaimNumber = claimNumber;
+            SettlementAmount = settlementAmount;
+            SettlementDate = settlementDate;
+            CarRegistration = carRegistration;
+            Mileage = mileage;
+            ClaimType = claimType;
+            CreatedDate = DateTime.UtcNow;
+            SetBlockHash(parent);
+        }
         public string CalculateBlockHash(string prevBlockHash)
         {
-            throw new NotImplementedException();
+            var txHash = ClaimNumber + SettlementAmount + SettlementDate + CarRegistration + Mileage + ClaimType;
+            var blockHeader = BlockNumber + CreatedDate.ToString(CultureInfo.CurrentCulture) + prevBlockHash;
+            var combined = txHash + blockHeader;
+
+            return Convert.ToBase64String(HashData.ComputeHashSha256(Encoding.UTF8.GetBytes(combined)));
         }
 
         public void SetBlockHash(IBlock parent)
         {
-            throw new NotImplementedException();
+            if (parent != null)
+            {
+                PrevBlockHash = parent.BlockHash;
+                parent.NextBlock = this;
+            }
+            else
+            {
+                PrevBlockHash = null;
+            }
+
+            BlockHash = CalculateBlockHash(PrevBlockHash);
         }
 
         public bool IsValidChain(string prevBlockHash, bool verbose)
         {
-            throw new NotImplementedException();
+            bool isValid = true;
+
+            string newBlockHash = CalculateBlockHash(prevBlockHash);
+            if (newBlockHash != BlockHash)
+            {
+                isValid = false;
+            }
+            else
+            {
+                isValid = PrevBlockHash == prevBlockHash; 
+            }
+            
+            
         }
     }
 }
