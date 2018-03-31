@@ -1,0 +1,10 @@
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/CryptoUtilities/bin/Debug/netcoreapp2.0/CryptoUtilities.deps.json
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/CryptoUtilities/bin/Debug/netcoreapp2.0/CryptoUtilities.runtimeconfig.json
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/CryptoUtilities/bin/Debug/netcoreapp2.0/CryptoUtilities.runtimeconfig.dev.json
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/CryptoUtilities/bin/Debug/netcoreapp2.0/CryptoUtilities.dll
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/CryptoUtilities/bin/Debug/netcoreapp2.0/CryptoUtilities.pdb
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/CryptoUtilities/obj/Debug/netcoreapp2.0/CryptoUtilities.csproj.CoreCompileInputs.cache
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/CryptoUtilities/obj/Debug/netcoreapp2.0/CryptoUtilities.AssemblyInfoInputs.cache
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/CryptoUtilities/obj/Debug/netcoreapp2.0/CryptoUtilities.AssemblyInfo.cs
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/CryptoUtilities/obj/Debug/netcoreapp2.0/CryptoUtilities.dll
+/home/metadojo/org/dotnetdojo/dotnetcore2blockchain2/CryptoUtilities/obj/Debug/netcoreapp2.0/CryptoUtilities.pdb
