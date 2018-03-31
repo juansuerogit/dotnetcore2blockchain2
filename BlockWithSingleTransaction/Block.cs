@@ -68,9 +68,10 @@ namespace BlockWithSingleTransaction
 
         public bool IsValidChain(string prevBlockHash, bool verbose)
         {
-            bool isValid = true;
+            var isValid = true;
 
-            string newBlockHash = CalculateBlockHash(prevBlockHash);
+            var newBlockHash = CalculateBlockHash(prevBlockHash);
+            
             if (newBlockHash != BlockHash)
             {
                 isValid = false;
@@ -79,8 +80,30 @@ namespace BlockWithSingleTransaction
             {
                 isValid = PrevBlockHash == prevBlockHash; 
             }
-            
-            
+
+            PrintVerificationMessage(verbose, isValid);
+
+            if (NextBlock != null)
+                return NextBlock.IsValidChain(newBlockHash, verbose);
+
+            return isValid;
         }
+        
+        private void PrintVerificationMessage(bool verbose, bool isValid)
+        {
+            if (verbose)
+            {
+                if (!isValid)
+                {
+                    Console.WriteLine("Block Number " + BlockNumber + " : FAILED VERIFICATION");
+                }
+                else
+                {
+                    Console.WriteLine("Block Number " + BlockNumber + " : PASS VERIFICATION");
+                }
+            }
+        }
+        
+        
     }
 }
