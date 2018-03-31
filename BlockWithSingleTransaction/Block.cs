@@ -18,7 +18,7 @@ namespace BlockWithSingleTransaction
         
         public int BlockNumber { get; set; }
         public DateTime CreatedDate { get; set; }
-        public string PrevBlockHash { get; set; }
+        public string PreviousBlockHash { get; set; }
         public string BlockHash { get; set; }
         public IBlock NextBlock { get; set; }
 
@@ -55,36 +55,41 @@ namespace BlockWithSingleTransaction
         {
             if (parent != null)
             {
-                PrevBlockHash = parent.BlockHash;
+                PreviousBlockHash = parent.BlockHash;
                 parent.NextBlock = this;
             }
             else
             {
-                PrevBlockHash = null;
+                PreviousBlockHash = null;
             }
 
-            BlockHash = CalculateBlockHash(PrevBlockHash);
+            BlockHash = CalculateBlockHash(PreviousBlockHash);
         }
 
         public bool IsValidChain(string prevBlockHash, bool verbose)
         {
-            var isValid = true;
+            bool isValid = true;
 
-            var newBlockHash = CalculateBlockHash(prevBlockHash);
-            
+            // Is this a valid block and transaction
+            string newBlockHash = CalculateBlockHash(prevBlockHash);
             if (newBlockHash != BlockHash)
             {
                 isValid = false;
             }
             else
             {
-                isValid = PrevBlockHash == prevBlockHash; 
+                // Does the previous block hash match the latest previous block hash
+                isValid |= PreviousBlockHash == prevBlockHash;
             }
 
             PrintVerificationMessage(verbose, isValid);
 
+            // Check the next block by passing in our newly calculated blockhash. This will be compared to the previous
+            // hash in the next block. They should match for the chain to be valid.
             if (NextBlock != null)
+            {
                 return NextBlock.IsValidChain(newBlockHash, verbose);
+            }
 
             return isValid;
         }
