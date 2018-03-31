@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2863e2d-b4fc-4c5e-9a41-9a538910f22c" name="Default" comment="...">
+    <list default="true" id="e2863e2d-b4fc-4c5e-9a41-9a538910f22c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dotnetcore2blockchain2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.dotnetcore2blockchain2/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BlockWithSingleTransaction/Block.cs" afterPath="$PROJECT_DIR$/BlockWithSingleTransaction/Block.cs" />
+      <change beforePath="$PROJECT_DIR$/BlockWithSingleTransaction/Interfaces/IBlock.cs" afterPath="$PROJECT_DIR$/BlockWithSingleTransaction/Interfaces/IBlock.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,12 +29,12 @@
       <file leaf-file-name="IBlock.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BlockWithSingleTransaction/Interfaces/IBlock.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="396">
+              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding>
-                <marker date="1522516266147" expanded="false" signature="6:47" ph="..." />
-                <marker date="1522516266147" expanded="true" signature="96:837" ph="{...}" />
-                <marker date="1522516266147" expanded="true" signature="126:835" ph="{...}" />
+                <marker date="1522520985394" expanded="false" signature="6:47" ph="..." />
+                <marker date="1522520985394" expanded="true" signature="96:841" ph="{...}" />
+                <marker date="1522520985394" expanded="true" signature="126:839" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -57,8 +57,8 @@
       <file leaf-file-name="Block.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BlockWithSingleTransaction/Block.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-254">
-              <caret line="65" column="60" lean-forward="false" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
+            <state relative-caret-position="162">
+              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
                 <marker date="1522520958690" expanded="true" signature="6:128" ph="..." />
                 <marker date="1522520958690" expanded="true" signature="166:3719" ph="{...}" />
@@ -159,8 +159,8 @@
         <option value="$PROJECT_DIR$/BlockWithSingleTransaction/Interfaces/IBlockChain.cs" />
         <option value="$PROJECT_DIR$/CryptoUtilities/Program.cs" />
         <option value="$PROJECT_DIR$/CryptoUtilities/HashData.cs" />
-        <option value="$PROJECT_DIR$/BlockWithSingleTransaction/Interfaces/IBlock.cs" />
         <option value="$PROJECT_DIR$/BlockWithSingleTransaction/Block.cs" />
+        <option value="$PROJECT_DIR$/BlockWithSingleTransaction/Interfaces/IBlock.cs" />
       </list>
     </option>
   </component>
@@ -276,7 +276,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522512717637</updated>
       <workItem from="1522512720356" duration="494000" />
-      <workItem from="1522513240675" duration="5210000" />
+      <workItem from="1522513240675" duration="5235000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <created>1522514559271</created>
@@ -320,11 +320,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522520887412</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="...">
+      <created>1522520969274</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1522520969274</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5704000" />
+    <option name="totallyTimeSpent" value="5729000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,9 +392,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1522516266147" expanded="false" signature="6:47" ph="..." />
-            <marker date="1522516266147" expanded="true" signature="96:837" ph="{...}" />
-            <marker date="1522516266147" expanded="true" signature="126:835" ph="{...}" />
+            <marker date="1522520985394" expanded="false" signature="6:47" ph="..." />
+            <marker date="1522520985394" expanded="true" signature="96:841" ph="{...}" />
+            <marker date="1522520985394" expanded="true" signature="126:839" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -458,20 +465,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BlockWithSingleTransaction/Interfaces/IBlock.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="396">
+          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
-            <marker date="1522516266147" expanded="false" signature="6:47" ph="..." />
-            <marker date="1522516266147" expanded="true" signature="96:837" ph="{...}" />
-            <marker date="1522516266147" expanded="true" signature="126:835" ph="{...}" />
+            <marker date="1522520985394" expanded="false" signature="6:47" ph="..." />
+            <marker date="1522520985394" expanded="true" signature="96:841" ph="{...}" />
+            <marker date="1522520985394" expanded="true" signature="126:839" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BlockWithSingleTransaction/Block.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-254">
-          <caret line="65" column="60" lean-forward="false" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
+        <state relative-caret-position="162">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <marker date="1522520958690" expanded="true" signature="6:128" ph="..." />
             <marker date="1522520958690" expanded="true" signature="166:3719" ph="{...}" />

@@ -21,7 +21,7 @@ namespace BlockWithSingleTransaction.Interfaces
         
         DateTime CreatedDate { get; set; }
         
-        string PrevBlockHash { get; set; }
+        string PreviousBlockHash { get; set; }
         
         string BlockHash { get; set; }
 
