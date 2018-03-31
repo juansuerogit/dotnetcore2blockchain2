@@ -92,7 +92,7 @@ namespace BlockWithSingleTransaction
             }
 
             return isValid;
-        }
+        } 
         
         private void PrintVerificationMessage(bool verbose, bool isValid)
         {
